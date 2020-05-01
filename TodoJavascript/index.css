@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    font-family: 'Permanent Marker', cursive;
+    background-image : linear-gradient(80deg, rgb(135, 196, 207),rgb(0, 162, 255));
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.todoInput{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.todoInput input{
+    font-size: 1em;
+}
+
+.todoInput button{
+    font-size: 1em;
+}
+
+form{
+    display: flex;
+    background-color: white;
+}
+
+.todoInput .add i{
+    font-size: 1.5em;
+    background: white;
+    color: rgb(0, 217, 255);
+    justify-content: space-between;
+
+}
+
+form input, form button{
+    border: white;
+    background: white;
+}
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.tododiv{
+    min-width: 30%;
+    justify-content: center;
+    align-content:center;
+}
+
+.newtodo{
+    margin: 0.5em;
+    display: flex;
+    background: white;
+    font-size: 1em;
+    justify-content: space-between;
+}
+
+.fa-check, .fa-trash{
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+button{
+    border: inherit;         
+}
